@@ -1,4 +1,5 @@
 use macroquad::prelude::*;
+use macroquad::experimental::animation::{AnimatedSprite, Animation};
 use macroquad_particles::{self as particles, ColorCurve, Emitter, EmitterConfig};
 
 use std::fs;
